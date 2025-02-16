@@ -1,0 +1,11 @@
+.CardContainer {
+    background-color: burlywood;
+    width: fit-content;
+    padding: 5px;
+    border-radius: 6px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    font-size: 14px;
+    font-weight: 700;
+}

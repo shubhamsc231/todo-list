@@ -1,0 +1,86 @@
+.modalField {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    align-items: center;
+}
+
+.formContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+}
+
+.homePageBox {
+    margin: auto;
+    width: 600px;
+    height: 400px;
+    padding: 30px;
+    background-color: bisque;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border-radius: 8px;
+    justify-content: space-between;
+    position: relative;
+}
+
+.cardToolbar {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    margin-bottom: 10px
+}
+
+.addButton {
+    background-color: cornflowerblue;
+    border: none;
+    border-radius: 6px;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: 700;
+    color: white;
+    cursor: pointer;
+}
+
+.homePageCardContainer {
+    background-color: '#FFF';
+    overflow-y: scroll;
+    display: flex;
+    gap: 5px;
+    flex-wrap: wrap;
+}
+
+.modalToolbar {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.cancelButton {
+    background-color: gray;
+    border: none;
+    border-radius: 6px;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: 700;
+    color: white;
+    cursor: pointer;
+}
+
+.field {
+    border: 1px solid black;
+    border-radius: 6px;
+    font-size: 20px;
+    padding: 10px;
+    font-weight: 600;
+}
